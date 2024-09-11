@@ -88,9 +88,9 @@ const Navbar = () => {
             </div>
             {/* Socials */}
             <div className="hidden md:flex gap-4 w-1/3">
-                <Link href="https://github.com/Frekeasuquo"> <Image src="/github.png" alt="" width={24} height={24} /> </Link>
-                <Link href="https://linkedin.com/in/ndifreke-asuquo"> <Image src="/linkedin.png" alt="" width={24} height={24} /> </Link>
-                <Link href="https://www.instagram.com/freke_asuquo"> <Image src="/instagram.png" alt="" width={24} height={24} /> </Link>
+                <Link href="https://github.com/Frekeasuquo" target="_blank" rel="noopener noreferrer"> <Image src="/github.png" alt="" width={24} height={24} /> </Link>
+                <Link href="https://linkedin.com/in/ndifreke-asuquo" target="_blank" rel="noopener noreferrer"> <Image src="/linkedin.png" alt="" width={24} height={24} /> </Link>
+                <Link href="https://www.instagram.com/freke_asuquo" target="_blank" rel="noopener noreferrer"> <Image src="/instagram.png" alt="" width={24} height={24} /> </Link>
             </div>
             
             {/* Responsive Menu */}

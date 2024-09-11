@@ -8,34 +8,34 @@ const items = [
     {
         id: 1,
         color: "from-red-300 to-blue-300",
-        title: "React Commerce",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        link: "https://lama.dev",
+        title: "OAPP",
+        desc: "Discover the easiest way to satisfy your pizza cravings with OAPP. Customize and order your favorite pizzas with just a few taps on their smartphone or tablet. Users can browse through a variety of pizza options, select toppings, crust types, and sizes, and even add sides and drinks to their order",
+        img: "https://img.freepik.com/premium-vector/ecommerce-concept-order-food-online-website-fast-food-pizza-delivery-online-service-flat-isometric-vector-illustration-can-be-used-advertisement-infographic-game-mobile-apps-icon_589019-4684.jpg?w=1800",
+        link: "https://arami.vercel.app/",
     },
     {
         id: 2,
         color: "from-blue-300 to-violet-300",
-        title: "Next.js Medium Blog",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        link: "https://lama.dev",
+        title: "E-commerce App",
+        desc: "YourMarket is a state-of-the-art e-commerce application designed to deliver a seamless and immersive shopping experience. Developed using a powerful stack comprising React, Redux, Hooks, GraphQL, Firebase, and Stripe for payment, this application redefines the way users interact with online marketplaces.",
+        img: "https://img.freepik.com/free-vector/ecommerce-campaign-concept-illustration_114360-8432.jpg?w=740&t=st=1700043963~exp=1700044563~hmac=3e049b71b87237cdc2b60cbd97e3a65b054ae2965edbc02724f0c5243c3875f7",
+        link: "https://mellow-halva-5b4284.netlify.app/",
     },
     {
         id: 3,
         color: "from-violet-300 to-purple-300",
-        title: "Vanilla Book App",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        link: "https://lama.dev",
+        title: "ShareHub",
+        desc: "ShareHub is more than just a sharing application; it's a dynamic hub of connectivity and collaboration, uniting individuals and teams in a shared digital space. It redefines the way we collaborate, share ideas, and innovate together.",
+        img: "https://img.freepik.com/free-vector/online-article-concept-illustration_114360-5432.jpg?w=740&t=st=1700044669~exp=1700045269~hmac=b9ab867d0325487aeadc6ea793cd217c45bb784a3c24e1721deb2c312d12718a",
+        link: "https://share-7p1383hxk-frekeasuquo.vercel.app/",
     },
     {
         id: 4,
         color: "from-purple-300 to-red-300",
-        title: "Spotify Music App",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        link: "https://lama.dev",
+        title: "LoanApp Dashboard",
+        desc: "A sophisticated loan application designed to empower individuals with a seamless, secure, and efficient borrowing experience. With a commitment to financial inclusivity and cutting-edge technology, LoanApp stands as your trusted partner on the journey to achieving your financial goals.",
+        img: "https://img.freepik.com/free-vector/mobile-banking-concept-illustration_114360-17348.jpg?w=740&t=st=1700044812~exp=1700045412~hmac=7c07996701be2c6f60c6c5d2264f8859b55dbfd18cb0c8a506f742c8d770bea9",
+        link: "https://boctrust-r3whv8m5x-frekeasuquo.vercel.app/",
     },
 ];
 
@@ -74,8 +74,8 @@ const PortfolioPage = () => {
                                         <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px] ">
                                             {item.desc}
                                         </p>
-                                        <Link href={item.link} className="flex justify-end">
-                                            <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded-lg">See Demo</button>
+                                        <Link href={item.link} className="flex justify-end" target="_blank" rel="noopener noreferrer">
+                                            <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded-lg" >See Demo</button>
                                         </Link>
                                     </div>
                                 </div>

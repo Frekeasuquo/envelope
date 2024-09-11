@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
@@ -23,8 +24,8 @@ const Homepage = () => {
           <p className="md:text-xl">I specialize in creating elegant, high-performance solutions tailored to your needs. Whether it’s building seamless user experiences or developing robust backend systems, I’m dedicated to transforming your vision into functional, scalable applications. Let’s build the future together, one line of code at a time.</p>
           {/* Button */}
           <div className="flex gap-4 w-full">
-            <button className="p-4 rounded-lg ring ring-black bg-black text-white">View My Work</button>
-            <button className="p-4 rounded-lg ring ring-black ">Contact Me</button>
+            <button className="p-4 rounded-lg ring ring-black bg-black text-white"> <Link href="./portfolio">View My Work</Link></button>
+            <button className="p-4 rounded-lg ring ring-black "><Link href="./contact">Contact Me</Link></button>
           </div>
         </div>
       </div>

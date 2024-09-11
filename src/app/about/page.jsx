@@ -28,9 +28,9 @@ const AboutPage = () => {
                     {/* BIOGRAPHY CONTAINER */}
                     <div className="flex flex-col gap-12 justify-center">
                         <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
-                        <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, cumque, illo enim ad quae quam tenetur nam error laborum excepturi nostrum nesciunt modi saepe?</p>
+                        <p className="text-lg">I am a Software Developer with over three years under my belt, passionate about crafting cool and efficient code. Well-versed in debugging, troubleshooting, and optimizing code to improve performance and reliability.</p>
                         {/* BIOGRAPHY QUOTE */}
-                        <span className="italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, sit?</span>
+                        <span className="italic"></span>
                         {/* BIOGRAPHY SIGN SVG */}
                         <div className="self-end">
                             {/* <motion.svg 
@@ -93,79 +93,58 @@ const AboutPage = () => {
                             className="flex gap-4 flex-wrap"
                             >
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                JavaScript
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                TypeScript
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                React.js
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Next.js
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                SCSS
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Tailwind CSS
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                MongoDB
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                NoSQL
+                                React
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                                 Node.js
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Nest.js
+                                Next.js
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Express.js
+                                Git and Github
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Spring Boot
+                                Typescript
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                GraphQL
+                                Gatsby
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Apollo
+                                MongoDB
+                            </div>
+                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                SQL and NoSQL
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                                 Redux
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Framer Motion
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Three.js
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                WebGL
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Webpack
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Vite
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Docker
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                AWS
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                                 Firebase
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Git
+                                Express.js
                             </div>
                             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                                 TDD
+                            </div>
+                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                Database Design
+                            </div>
+                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                Apollo
+                            </div>
+                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                Restful Api
+                            </div>
+                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                Prisma
+                            </div>
+                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                Zustand
+                            </div>
+                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                Websocket
                             </div>
                         </motion.div>
                         {/* SKILL scroll SVG */}
@@ -213,16 +192,15 @@ const AboutPage = () => {
                                 <div className="w-1/3 bg-red-200">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Senior JavaScript Engineer
+                                        Tech Facilitator
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-3 text-sm italic">
-                                        I led web development, offering expertise in JavaScript
-                                        frameworks.{" "}
+                                    • Technology Integration: Ensure that clients can integrate new technologies into their workflow and guide them through the implementation process.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-3 text-red-400 text-sm font-semibold">
-                                        2024 - Present
+                                        2022 - Present
                                     </div>
                                     {/* JOB COMPANY */}
                                     <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
@@ -256,20 +234,19 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                 {/* JOB TITLE */}
                                 <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                    Senior React Developer
+                                    Full-stack Developer
                                 </div>
                                 {/* JOB DESC */}
                                 <div className="p-3 text-sm italic">
-                                    I spearheaded React-based application development,
-                                    leveraging advanced skills.{" "}
+                                • Develop RESTful APIs to handle data requests, server-side logic and implement database interaction and wrote unit tests and integration tests.{" "}
                                 </div>
                                 {/* JOB DATE */}
                                 <div className="p-3 text-red-400 text-sm font-semibold">
-                                    2019 - 2024{" "}
+                                    2019 - 2021{" "}
                                 </div>
                                 {/* JOB COMPANY */}
                                 <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                                    Microsoft
+                                    I & T SOFTWARE SOLUTION
                                 </div>
                                 </div>
                             </div>
@@ -279,16 +256,19 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                 {/* JOB TITLE */}
                                 <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                    Freelancer{" "}
+                                Customer Support Representative{" "}
                                 </div>
                                 {/* JOB DESC */}
                                 <div className="p-3 text-sm italic">
-                                    I provided web solutions, applying a range of technologies
-                                    to address client requirements.{" "}
+                                • Problem Resolution: I diagnose and troubleshoot customer issues, providing accurate and timely resolutions.{" "}
                                 </div>
                                 {/* JOB DATE */}
                                 <div className="p-3 text-red-400 text-sm font-semibold">
-                                    2010 - 2019{" "}
+                                    2018 - 2019{" "}
+                                </div>
+                                {/* JOB COMPANY */}
+                                <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                                EFFADEX INVESTMENT
                                 </div>
                                 </div>
                                 {/* CENTER */}
