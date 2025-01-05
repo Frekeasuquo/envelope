@@ -28,7 +28,7 @@ const AboutPage = () => {
                     {/* BIOGRAPHY CONTAINER */}
                     <div className="flex flex-col gap-12 justify-center">
                         <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
-                        <p className="text-lg">I am a Software Developer with over three years under my belt, passionate about crafting cool and efficient code. Well-versed in debugging, troubleshooting, and optimizing code to improve performance and reliability.</p>
+                        <p className="text-lg">A dedicated and self-motivated full stack developer with over three years of professional experience in building high-performance web applications using React, Next.js, and the MERN stack. Specializes in crafting scalable, user-centric solutions for eCommerce, finance,and customer-focused platforms. Proficient in state management (Redux), React hooks, and integrating cloud services (AWS, Firebase). Experienced with modern UI/UX development tools such as MUI, TailwindCSS, and SASS, as well as testing frameworks including Jest and React Testing Library (RTL). Dedicated to delivering optimized, responsive, and engaging user interfaces while thriving in collaborative, agile environments.</p>
                         {/* BIOGRAPHY QUOTE */}
                         <span className="italic"></span>
                         {/* BIOGRAPHY SIGN SVG */}
@@ -192,15 +192,15 @@ const AboutPage = () => {
                                 <div className="w-1/3 bg-red-200">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Tech Facilitator
+                                        Full-stack Developer
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-3 text-sm italic">
-                                    • Technology Integration: Ensure that clients can integrate new technologies into their workflow and guide them through the implementation process.{" "}
+                                    Led the integration of modern technologies like Next.js, React, and MongoDB into client projects, including applications such as a pizza ordering platform..{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-3 text-red-400 text-sm font-semibold">
-                                        2022 - Present
+                                        2022 - 2024
                                     </div>
                                     {/* JOB COMPANY */}
                                     <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
@@ -234,11 +234,11 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                 {/* JOB TITLE */}
                                 <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                    Full-stack Developer
+                                    Frontend Developer
                                 </div>
                                 {/* JOB DESC */}
                                 <div className="p-3 text-sm italic">
-                                • Develop RESTful APIs to handle data requests, server-side logic and implement database interaction and wrote unit tests and integration tests.{" "}
+                                Designed and optimized web applications using React, enhancing performance and minimizing load times.{" "}
                                 </div>
                                 {/* JOB DATE */}
                                 <div className="p-3 text-red-400 text-sm font-semibold">
@@ -260,7 +260,7 @@ const AboutPage = () => {
                                 </div>
                                 {/* JOB DESC */}
                                 <div className="p-3 text-sm italic">
-                                • Problem Resolution: I diagnose and troubleshoot customer issues, providing accurate and timely resolutions.{" "}
+                                Delivered exceptional customer support using tools like Zendesk and LiveChat, addressing issues related to order processing,account management, and loan services.{" "}
                                 </div>
                                 {/* JOB DATE */}
                                 <div className="p-3 text-red-400 text-sm font-semibold">
