@@ -187,7 +187,7 @@ const AboutPage = () => {
                             transition={{ delay: 0.2 }}
                             className="">
                             {/* EXPERINCE LIST ITEM */}
-                            <div className="flex justify-between h-48">
+                            <div className="flex justify-between h-48 font-mono">
                                 {/* LEFT */}
                                 <div className="w-1/3">
                                     <div className="bg-inherit p-3 font-semibold rounded-b-lg rounded-s-lg">
@@ -206,14 +206,14 @@ const AboutPage = () => {
                                     {/* JOB DESC */}
                                     <div className="group p-3 text-sm italic break-words">
                                         <p className="hidden md:block">
-                                            Led the integration of modern technologies like Next.js, React, and MongoDB into client projects, including applications such as a pizza ordering platform.
+                                            Led the integration of modern technologies like Next.js and MongoDB into client projects, e.g pizza ordering platform.
                                         </p>
                                         <p className="block md:hidden">
                                             <span className="group-hover:hidden">
                                             Led the integration of modern technologies...
                                             </span>
                                             <span className="hidden group-hover:inline">
-                                            Led the integration of modern technologies like Next.js, React, and MongoDB into client projects, including applications such as a pizza ordering platform.
+                                            Led the integration of modern technologies like Next.js and MongoDB into client projects, e.g pizza ordering platform.
                                             </span>
                                         </p>
                                     </div>
