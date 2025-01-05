@@ -189,22 +189,33 @@ const AboutPage = () => {
                             {/* EXPERINCE LIST ITEM */}
                             <div className="flex justify-between h-48">
                                 {/* LEFT */}
-                                <div className="w-1/3 bg-red-200">
-                                    {/* JOB TITLE */}
-                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Full-stack Developer
+                                <div className="w-1/3">
+                                    <div className="bg-blue-50 p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        <h1>Full-stack Developer</h1>
+
+                                        <div className="block md:flex items-center gap-2">
+                                        {/* JOB COMPANY */}
+                                            <div className=" rounded text-sm font-semibold w-fit">
+                                                GOMYCODE   
+                                            </div>
+                                            <div className=" text-sm font-semibold">
+                                                2022 - 2024
+                                            </div>
+                                        </div>
                                     </div>
                                     {/* JOB DESC */}
-                                    <div className="p-3 text-sm italic">
-                                    Led the integration of modern technologies like Next.js, React, and MongoDB into client projects, including applications such as a pizza ordering platform..{" "}
-                                    </div>
-                                    {/* JOB DATE */}
-                                    <div className="p-3 text-red-400 text-sm font-semibold">
-                                        2022 - 2024
-                                    </div>
-                                    {/* JOB COMPANY */}
-                                    <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                                        GOMYCODE
+                                    <div className="group p-3 text-sm italic break-words">
+                                        <p className="hidden md:block">
+                                            Led the integration of modern technologies like Next.js, React, and MongoDB into client projects, including applications such as a pizza ordering platform.
+                                        </p>
+                                        <p className="block md:hidden">
+                                            <span className="group-hover:hidden">
+                                            Led the integration of modern technologies...
+                                            </span>
+                                            <span className="hidden group-hover:inline">
+                                            Led the integration of modern technologies like Next.js, React, and MongoDB into client projects, including applications such as a pizza ordering platform.
+                                            </span>
+                                        </p>
                                     </div>
                                 </div>
                                 {/* CENTER */}
@@ -233,21 +244,33 @@ const AboutPage = () => {
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
                                 {/* JOB TITLE */}
-                                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                    Frontend Developer
-                                </div>
-                                {/* JOB DESC */}
-                                <div className="p-3 text-sm italic">
-                                Designed and optimized web applications using React, enhancing performance and minimizing load times.{" "}
-                                </div>
-                                {/* JOB DATE */}
-                                <div className="p-3 text-red-400 text-sm font-semibold">
-                                    2019 - 2021{" "}
-                                </div>
-                                {/* JOB COMPANY */}
-                                <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                                    I & T SOFTWARE SOLUTION
-                                </div>
+                                    <div className="bg-blue-50 p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        <h1>Frontend Developer</h1>
+
+                                        <div className="block md:flex items-center gap-2">
+                                        {/* JOB COMPANY */}
+                                            <div className=" rounded text-sm font-semibold w-fit">
+                                                I & T SOFTWARE SOLUTION
+                                            </div>
+                                            <div className=" text-sm font-semibold">
+                                                2019 - 2021
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* JOB DESC */}
+                                    <div className="group p-3 text-sm italic break-words">
+                                        <p className="hidden md:block">
+                                            Designed and optimized web applications using React, enhancing performance and minimizing load times.
+                                        </p>
+                                        <p className="block md:hidden">
+                                            <span className="group-hover:hidden">
+                                            Designed and optimized web applications using...
+                                            </span>
+                                            <span className="hidden group-hover:inline">
+                                            Designed and optimized web applications using React, enhancing performance and minimizing load times.
+                                            </span>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             {/* EXPERIENCE LIST ITEM */}
@@ -255,21 +278,33 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                 {/* JOB TITLE */}
-                                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                Customer Support Representative{" "}
-                                </div>
-                                {/* JOB DESC */}
-                                <div className="p-3 text-sm italic">
-                                Delivered exceptional customer support using tools like Zendesk and LiveChat, addressing issues related to order processing,account management, and loan services.{" "}
-                                </div>
-                                {/* JOB DATE */}
-                                <div className="p-3 text-red-400 text-sm font-semibold">
-                                    2018 - 2019{" "}
-                                </div>
-                                {/* JOB COMPANY */}
-                                <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                                EFFADEX INVESTMENT
-                                </div>
+                                    <div className="bg-blue-50 p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        <h1>Customer Support Representative</h1>
+
+                                        <div className="block md:flex items-center gap-2">
+                                        {/* JOB COMPANY */}
+                                            <div className=" rounded text-sm font-semibold w-fit">
+                                                EFFADEX INVESTMENT
+                                            </div>
+                                            <div className=" text-sm font-semibold">
+                                                2018 - 2019
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* JOB DESC */}
+                                    <div className="group p-3 text-sm italic break-words">
+                                        <p className="hidden md:block">
+                                        Delivered exceptional customer support using tools like Zendesk and LiveChat, addressing issues related to order processing,account management, and loan services.
+                                        </p>
+                                        <p className="block md:hidden">
+                                            <span className="group-hover:hidden">
+                                            Delivered exceptional customer support using tools like...
+                                            </span>
+                                            <span className="hidden group-hover:inline">
+                                            Delivered exceptional customer support using tools like Zendesk and LiveChat, addressing issues related to order processing,account management, and loan services.
+                                            </span>
+                                        </p>
+                                    </div>
                                 </div>
                                 {/* CENTER */}
                                 <div className="w-1/6 flex justify-center">
