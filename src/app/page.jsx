@@ -19,9 +19,10 @@ const Homepage = () => {
         {/* Text container */}
         <div className="h-1/2 lg:h-full lg:w-1/2  flex flex-col gap-8 items-center justify-center">
           {/* title */}
-          <h1 className="text-4xl md:text-5xl font-bold pt-20 md:pt-5 ">Where Innovation Meets Precision in Every Line of Code.</h1>
+          <h1 className="text-4xl md:text-5xl font-bold hidden sm:block">Where Innovation Meets Precision in Every Line of Code.</h1>
           {/* Description */}
-          <p className="md:text-xl">I specialize in creating elegant, high-performance solutions tailored to your needs. Whether it’s building seamless user experiences or developing robust backend systems, I’m dedicated to transforming your vision into functional, scalable applications. Let’s build the future together, one line of code at a time.</p>
+          <p className="md:text-xl"><span className="font-normal">Hi, I’m Ndifreke — Full Stack Developer</span> <br />
+          I craft elegant, high-performance web solutions designed to elevate your vision. From seamless user experiences to robust backend systems, I specialize in turning ideas into scalable, functional realities. Let’s collaborate to create impactful applications and build the future, one line of code at a time.</p>
           {/* Button */}
           <div className="flex gap-4 w-full">
             <button className="p-4 rounded-lg ring ring-black bg-black text-white"> <Link href="./portfolio">View My Work</Link></button>
