@@ -1,11 +1,9 @@
 "use client"
 import Image from "next/image";
-//import Link from "next/link";
-//import { useState } from "react";
+import Link from "next/link";
+import { useState } from "react";
 import NavLink from "./navLink";
 import { motion } from "framer-motion";
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { useTheme } from "next-themes";
 
 const links = [
@@ -17,7 +15,7 @@ const links = [
 
 
 
-const Navbar = ({ }) => {
+const Navbar = () => {
     const { theme, setTheme } = useTheme();
 
     const [open, setOpen] = useState(false);
@@ -84,14 +82,6 @@ const Navbar = ({ }) => {
                 ))}
             </div>
             {/* Logo */}
-            {/* <div className="lg:flex xl:w-1/3 xl:justify-center">
-                <Link href='/'
-                    className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
-                >
-                    <span className="text-white mr-1">Freke</span>
-                    <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">.dev</span>
-                </Link>
-            </div> */}
             {/* Socials */}
             <div className="md:flex gap-4 w-1/3 items-center justify-evenly">
                 <div className="hidden md:flex gap-4 w-1/3 items-center ">
