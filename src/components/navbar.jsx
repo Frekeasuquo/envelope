@@ -1,9 +1,12 @@
 "use client"
 import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+//import Link from "next/link";
+//import { useState } from "react";
 import NavLink from "./navLink";
 import { motion } from "framer-motion";
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { useTheme } from "next-themes";
 
 const links = [
     {url: "/", title: "Home"},
@@ -12,7 +15,10 @@ const links = [
     {url: "/contact", title: "Contact"},
 ];
 
-const Navbar = () => {
+
+
+const Navbar = ({ }) => {
+    const { theme, setTheme } = useTheme();
 
     const [open, setOpen] = useState(false);
 
@@ -22,7 +28,7 @@ const Navbar = () => {
         },
         opened: {
             rotate: 45, 
-            backgroundColor: "rgb(255,255,255)"
+            
         }
     }
 
@@ -41,7 +47,7 @@ const Navbar = () => {
         },
         opened: {
             rotate: -45, 
-            backgroundColor: "rgb(255,255,255)"
+            
         }
     }
 
@@ -70,7 +76,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+        <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl  bg-white dark:bg-gray-900 text-black dark:text-white">
             {/* Links */}
             <div className="hidden md:flex gap-4 w-1/3 ">
                 {links.map((link) => (
@@ -78,32 +84,43 @@ const Navbar = () => {
                 ))}
             </div>
             {/* Logo */}
-            <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
+            {/* <div className="lg:flex xl:w-1/3 xl:justify-center">
                 <Link href='/'
                     className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
                 >
                     <span className="text-white mr-1">Freke</span>
                     <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">.dev</span>
                 </Link>
-            </div>
+            </div> */}
             {/* Socials */}
-            <div className="hidden md:flex gap-4 w-1/3">
-                <Link href="https://github.com/Frekeasuquo" target="_blank" rel="noopener noreferrer"> <Image src="/github.png" alt="" width={24} height={24} /> </Link>
-                <Link href="https://linkedin.com/in/ndifreke-asuquo" target="_blank" rel="noopener noreferrer"> <Image src="/linkedin.png" alt="" width={24} height={24} /> </Link>
-                <Link href="https://www.instagram.com/freke_asuquo" target="_blank" rel="noopener noreferrer"> <Image src="/instagram.png" alt="" width={24} height={24} /> </Link>
+            <div className="md:flex gap-4 w-1/3 items-center justify-evenly">
+                <div className="hidden md:flex gap-4 w-1/3 items-center ">
+                    <Link href="https://linkedin.com/in/ndifreke-asuquo" target="_blank" rel="noopener noreferrer"> <Image src="/linkedin.png" alt="" width={24} height={24} /> </Link>
+                    <Link href="https://github.com/Frekeasuquo" target="_blank" rel="noopener noreferrer"> <Image src="/github.png" alt="" width={24} height={24} /> </Link>
+                    <Link href="https://www.instagram.com/freke_asuquo" target="_blank" rel="noopener noreferrer"> <Image src="/instagram.png" alt="" width={24} height={24} /> </Link>
+                </div>
+                <div className="flex lg:flex xl:w-1/3 xl:justify-center">
+                    <Link href=''
+                        className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
+                    >
+                        <span className="text-white mr-1" onClick={() => setTheme("dark")}>Freke</span>
+                        <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center" onClick={() => setTheme("light")}>.dev</span>
+                    </Link>
+                </div>
+            
             </div>
             
             {/* Responsive Menu */}
             <div className="md:hidden">
                 {/* Menu button */}
                 <button className="w-10 h-8 flex flex-col justify-between z-50 relative" onClick={() => setOpen((prev) => !prev)}>
-                    <motion.div variants={topVariants} animate={open ? "opened" : "closed"} className="w-10 h-1 bg-white rounded origin-left"></motion.div>
-                    <motion.div variants={centerVariants} animate={open ? "opened" : "closed"} className="w-10 h-1 bg-white rounded"></motion.div>
-                    <motion.div variants={bottomVariants} animate={open ? "opened" : "closed"} className="w-10 h-1 bg-white rounded origin-left"></motion.div>
+                    <motion.div variants={topVariants} animate={open ? "opened" : "closed"} className="w-10 h-1 bg-gray-500 dark:bg-white  rounded origin-left"></motion.div>
+                    <motion.div variants={centerVariants} animate={open ? "opened" : "closed"} className="w-10 h-1 bg-gray-500  dark:bg-white rounded"></motion.div>
+                    <motion.div variants={bottomVariants} animate={open ? "opened" : "closed"} className="w-10 h-1 bg-gray-500 dark:bg-white rounded origin-left"></motion.div>
                 </button>
                 {/* Menu list */}
                 { open && (
-                    <motion.div variants={listVariants} initial="closed" animate="opened" className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40">
+                    <motion.div variants={listVariants} initial="closed" animate="opened" className="absolute top-0 left-0 w-screen h-screen bg-black text-white  flex flex-col items-center justify-center gap-8 text-4xl z-40">
                         {links.map((link) => (
                             <motion.div variants={listItemVariants} className="" key={link.title}>
                                 <Link href={link.url} >

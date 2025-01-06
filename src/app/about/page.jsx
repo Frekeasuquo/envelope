@@ -22,12 +22,12 @@ const AboutPage = () => {
             transition={{ duration: 1}}
         >
             {/* CONTAINER */}
-            <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
+            <div className="h-full overflow-scroll lg:flex bg-white dark:bg-gray-900 text-black dark:text-white" ref={containerRef}>
                 {/* TEXT CONTAINER */}
                 <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2 font-mono">
                     {/* BIOGRAPHY CONTAINER */}
                     <div className="flex flex-col gap-12 justify-center">
-                        <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
+                        <h1 className="font-bold text-2xl">BIO</h1>
                         <p className="text-lg">A dedicated and self-motivated full stack developer with over three years of professional experience in building high-performance web applications using React, Next.js, and the MERN stack. Specializes in crafting scalable, user-centric solutions for eCommerce, finance,and customer-focused platforms. Proficient in state management (Redux), React hooks, and integrating cloud services (AWS, Firebase). Experienced with modern UI/UX development tools such as MUI, TailwindCSS, and SASS, as well as testing frameworks including Jest and React Testing Library (RTL). Dedicated to delivering optimized, responsive, and engaging user interfaces while thriving in collaborative, agile environments.</p>
                         {/* BIOGRAPHY QUOTE */}
                         <span className="italic"></span>
@@ -195,10 +195,10 @@ const AboutPage = () => {
 
                                         <div className="block md:flex items-center gap-2">
                                         {/* JOB COMPANY */}
-                                            <div className=" rounded text-xs font-normal text-gray-600 w-fit">
+                                            <div className=" rounded text-xs font-normal text-gray-400 w-fit">
                                                 GOMYCODE   
                                             </div>
-                                            <div className=" text-xs font-light text-gray-600">
+                                            <div className=" text-xs font-light text-gray-400">
                                                 2022 - 2024
                                             </div>
                                         </div>
@@ -249,10 +249,10 @@ const AboutPage = () => {
 
                                         <div className="block md:flex items-center gap-1">
                                         {/* JOB COMPANY */}
-                                            <div className=" rounded text-xs font-normal text-gray-600 w-fit">
+                                            <div className=" rounded text-xs font-normal text-gray-400 w-fit">
                                                 I & T SOFTWARE SOLUTION
                                             </div>
-                                            <div className=" text-xs font-light text-gray-600">
+                                            <div className=" text-xs font-light text-gray-400">
                                                 2019 - 2021
                                             </div>
                                         </div>
@@ -279,14 +279,14 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                 {/* JOB TITLE */}
                                     <div className="bg-inherit p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        <h1 className="font-mono rounded text-sm font-bold text-gray-600 w-fit">Customer Support Representative</h1>
+                                        <h1 className="font-mono rounded text-sm font-bold w-fit">Customer Support Representative</h1>
 
                                         <div className="block md:flex items-center gap-3">
                                         {/* JOB COMPANY */}
-                                            <p className=" rounded text-xs font-normal text-gray-600 w-fit">
+                                            <p className=" rounded text-xs font-normal text-gray-400 w-fit">
                                                 EFFADEX INVESTMENT
                                             </p>
-                                            <p className=" text-xs font-light text-gray-600">
+                                            <p className=" text-xs font-light text-gray-400">
                                                 2018 - 2019
                                             </p>
                                         </div>

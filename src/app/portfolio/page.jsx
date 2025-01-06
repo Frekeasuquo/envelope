@@ -60,7 +60,7 @@ const PortfolioPage = () => {
             animate={{ y: "0%" }}
             transition={{ duration: 1 }}
         >
-            <div className="h-[600vh] relative" ref={ref}>
+            <div className="h-[600vh] relative bg-white dark:bg-gray-900 text-black dark:text-white" ref={ref}>
                 <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
                     My Works
                 </div>
@@ -92,8 +92,8 @@ const PortfolioPage = () => {
                 </div>
             </div>
             <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-                <h1 className="text-6xl">Do you have a project?</h1>
-                <div className="relative">
+                <h1 className="text-6xl text-black dark:text-white">Do you have a project?</h1>
+                <div className="relative ">
                     <motion.svg
                         animate={{ rotate: 360 }}
                         transition={{ duration: 8, ease: "linear", repeat: Infinity }}
@@ -106,8 +106,8 @@ const PortfolioPage = () => {
                             d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
                         />
                         </defs>
-                        <text fill="#000">
-                            <textPath xlinkHref="#circlePath" className="text-xl">
+                        <text fill="#514e51">
+                            <textPath xlinkHref="#circlePath" className="text-xl ">
                                 Full-Stack Developer.
                             </textPath>
                         </text>
